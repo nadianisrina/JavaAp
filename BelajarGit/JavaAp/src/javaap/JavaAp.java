@@ -11,13 +11,19 @@ package javaap;
  */
 public class JavaAp {
 
-    public static int tambah(int a, int b){
+    public static int tambah(int a, int b) {
         return a + b;
     }
+
+    public static int kurang(int a, int b) {
+        return a - b;
+    }
+
     public static void main(String[] args) {
         System.out.println("Hello Word");
         System.out.println("Hai");
-        System.out.println(tambah(5,3));
+        System.out.println(tambah(5, 3));
+        System.out.println(kurang(3, 2));
     }
-    
+
 }
