@@ -11,12 +11,13 @@ package javaap;
  */
 public class JavaAp {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static int tambah(int a, int b){
+        return a + b;
+    }
     public static void main(String[] args) {
         System.out.println("Hello Word");
         System.out.println("Hai");
+        System.out.println(tambah(5,3));
     }
     
 }
